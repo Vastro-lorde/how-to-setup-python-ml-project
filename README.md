@@ -7,6 +7,7 @@
 
 2. **Create a Project Folder and Open in VSCode:**
    <p>assuming you are using gitbash</p>
+   
     ```bash
     mkdir your_project_name
     cd your_project_name
