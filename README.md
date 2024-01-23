@@ -14,39 +14,42 @@
     code .
     ```
 
-4. **Initialize Pipenv:**
+3. **Initialize Pipenv:**
    <p>for managing project dependencies</p>
+   
     ```bash
     pipenv --python 3.8
     ```
     Replace `3.8` with your preferred Python version.
 
-6. **Install TensorFlow:**
+5. **Install TensorFlow:**
     ```bash
     pipenv install tensorflow
     ```
     This will create a `Pipfile` and a `Pipfile.lock` containing the TensorFlow dependency.
 
-7. **Create Python Script:**
+6. **Create Python Script:**
     Create a Python script (e.g., `main.py`) in your project directory. You can use this file to write your machine learning code.
 
-8. **Activate Pipenv Shell:**
+7. **Activate Pipenv Shell:**
     ```bash
     pipenv shell
     ```
 
-9. **Run Your Python Script:**
+8. **Run Your Python Script:**
     ```bash
     python main.py
     ```
 
-10. **Version Control (Optional):**
+9. **Version Control (Optional):**
     - If you plan to use version control (like Git), initialize a Git repository in your project folder:
+   
     ```bash
     git init
     ```
 
     - Create a `.gitignore` file to exclude unnecessary files and folders from version control. For Python projects, a sample `.gitignore` could look like this:
+   
     ```plaintext
     __pycache__/
     .vscode/
@@ -58,7 +61,7 @@
     *.log
     ```
 
-11. **Commit Your Changes (Optional):**
+10. **Commit Your Changes (Optional):**
     ```bash
     git add .
     git commit -m "Initial commit"
